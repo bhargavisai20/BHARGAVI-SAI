@@ -1,24 +1,14 @@
 Train Reservation System
 
-This is a basic Train Reservation System implemented in C. The project allows users to reserve train tickets, view available trains, and cancel reservations.
+A simple Train Reservation System in C that allows users to reserve tickets, view available trains, and print ticket details.
 
 Features
 
-Login System: Secure login with a pre-defined username and password.
+Login System: User authentication with a predefined username and password.
 
-Ticket Reservation: Reserve a train ticket by entering train number, passenger name, and number of seats.
+Ticket Reservation: Reserve tickets by entering train number and number of seats.
 
-View Available Trains: Display a list of available trains, their destinations, charges, and departure times.
-
-Print Ticket: Display ticket details after reservation.
-
-Cancel Reservation: Currently under development.
-
-Technologies Used
-
-C Programming Language
-
-Standard Libraries: <stdio.h>, <stdlib.h>, <string.h>, <conio.h>
+View Trains: Display available trains with destinations, charges, and departure times.
 
 How to Run
 
@@ -27,32 +17,21 @@ Clone the repository:
 git clone https://github.com/bhargavisai20/train-reservation-system.git
 cd train-reservation-system
 
-Compile the program using GCC:
+Compile the program:
 
-gcc main.c -o train_reservation_system
+gcc main.c -o train_reservation
 
 Run the executable:
 
-./train_reservation_system
+./train_reservation
 
 Usage
 
-Enter the username and password 
+Login using the username prapul and password password.
 
-Follow the menu to make reservations, view train details, or exit.
+Follow the menu to make reservations or view train details.
 
-File Structure
+License
 
-main.c: The main source code for the Train Reservation System.
-
-seats_reserved.txt: File for storing reservation data.
-
-Future Improvements
-
-Complete the reservation cancellation feature.
-
-Improve user interface and error handling.
-
-Implement dynamic data management for train details.
-
+MIT License.
 
