@@ -24,7 +24,7 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/yourusername/train-reservation-system.git
+git clone https://github.com/bhargavisai20/train-reservation-system.git
 cd train-reservation-system
 
 Compile the program using GCC:
@@ -37,7 +37,7 @@ Run the executable:
 
 Usage
 
-Enter the username and password (default: prapul and password).
+Enter the username and password 
 
 Follow the menu to make reservations, view train details, or exit.
 
@@ -55,4 +55,4 @@ Improve user interface and error handling.
 
 Implement dynamic data management for train details.
 
-C
+
